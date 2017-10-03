@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ExcelCollectionViewLayout_Example' do
+  pod 'ExcelCollectionViewLayout', :path => '../'
+
+  target 'ExcelCollectionViewLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
