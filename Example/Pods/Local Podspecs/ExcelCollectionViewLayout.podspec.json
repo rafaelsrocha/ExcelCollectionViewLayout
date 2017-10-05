@@ -1,9 +1,9 @@
 {
   "name": "ExcelCollectionViewLayout",
   "version": "0.1.0",
-  "summary": "A short description of ExcelCollectionViewLayout.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Rafael Rocha/ExcelCollectionViewLayout",
+  "summary": "An Excel-like UICollectionView's layout.",
+  "description": "This will allow you to work with UICollectionViews like Excel tables.",
+  "homepage": "https://github.com/rafaelsrocha/ExcelCollectionViewLayout",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "Rafael Rocha": "rocha.development@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Rafael Rocha/ExcelCollectionViewLayout.git",
+    "git": "https://github.com/rafaelsrocha/ExcelCollectionViewLayout.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "ExcelCollectionViewLayout/Classes/**/*"
+  "source_files": "ExcelCollectionViewLayout/Classes/**/*",
+  "frameworks": "UIKit"
 }

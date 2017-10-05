@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ExcelCollectionViewLayout: a0b89d16f939eb16f0037fbf2133e343300e289c
+  ExcelCollectionViewLayout: 02587b849b241a24b6700060ea857f1b8cf1baa5
 
 PODFILE CHECKSUM: 7a46691994a277d5b6c6f146ef14c5a5cd2bf596
 
