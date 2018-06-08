@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/cocoapods/v/ExcelCollectionViewLayout.svg?style=flat)](http://cocoapods.org/pods/ExcelCollectionViewLayout)
 [![License](https://img.shields.io/cocoapods/l/ExcelCollectionViewLayout.svg?style=flat)](http://cocoapods.org/pods/ExcelCollectionViewLayout)
 [![Platform](https://img.shields.io/cocoapods/p/ExcelCollectionViewLayout.svg?style=flat)](http://cocoapods.org/pods/ExcelCollectionViewLayout)
-[![Language](https://img.shields.io/badge/swift-3.2-orange.svg?style=flat)](https://developer.apple.com/swift)
+[![Language](https://img.shields.io/badge/swift-4.0-green.svg?style=flat)](https://developer.apple.com/swift)
 
 Based on [Brightec’s solution](http://www.brightec.co.uk/ideas/uicollectionview-using-horizontal-and-vertical-scrolling-sticky-rows-and-columns) this pod will allow you to have an UIColletionView working like an Excel (PC) or Numbers’ (OS X) sheet. Plus, and not less important, you will have the total control about your UICollectionView's design and how it should look like!
 
@@ -17,9 +17,7 @@ This is the expected behavior in the implemented UICollectionView:
 
 - iOS 8.0+
 - Xcode 8.0+
-- Swift 3.2
-
-Support for Swift 4.0 is being developed.
+- Swift 4.0
 
 ## Installation
 
