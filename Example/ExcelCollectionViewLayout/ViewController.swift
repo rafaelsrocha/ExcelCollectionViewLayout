@@ -36,10 +36,10 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     func collectionViewLayout(_ collectionViewLayout: ExcelCollectionViewLayout, sizeForItemAtColumn columnIndex: Int) -> CGSize {
         if columnIndex == 0 {
-            let biggestMonth = months.max(by: { $1.characters.count > $0.characters.count })!
-            let biggestString = biggestMonth.characters.count > topLeftString.characters.count ? biggestMonth : topLeftString
+            let biggestMonth = months.max(by: { $1.count > $0.count })!
+            let biggestString = biggestMonth.count > topLeftString.count ? biggestMonth : topLeftString
             
-            let size: CGSize = biggestString.size(attributes: [NSFontAttributeName: UIFont.systemFont(ofSize: 17)])
+            let size: CGSize = biggestString.size(withAttributes: [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 17)])
             let width: CGFloat = size.width + 30
             return CGSize(width: width, height: 70)
         }
@@ -49,11 +49,15 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
             let valueFormatted = formatCurrency(monthlyValues[index][columnIndex - 1])
             columnData.append(valueFormatted)
         }
-        let biggestValue = String(columnData.max(by: { String($1).characters.count > String($0).characters.count })!)!
+        let biggestValue = String(describing:
+            columnData.max(by: {
+                String(describing: $1).count > String(describing: $0).count
+            })!
+        )
         let topString = topLabels[columnIndex - 1]
-        let biggestString = biggestValue.characters.count > topString.characters.count ? biggestValue : topString
+        let biggestString = biggestValue.count > topString.count ? biggestValue : topString
         
-        let size: CGSize = biggestString.size(attributes: [NSFontAttributeName: UIFont.systemFont(ofSize: 17)])
+        let size: CGSize = biggestString.size(withAttributes: [NSAttributedStringKey.font: UIFont.systemFont(ofSize: 17)])
         let width: CGFloat = size.width + 30
         return CGSize(width: width, height: 70)
     }

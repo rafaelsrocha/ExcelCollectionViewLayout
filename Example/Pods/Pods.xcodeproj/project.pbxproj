@@ -31,10 +31,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		099068A24C1A07110E1375AB7C012488 /* ExcelCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ExcelCollectionViewLayout.modulemap; sourceTree = "<group>"; };
+		099068A24C1A07110E1375AB7C012488 /* ExcelCollectionViewLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ExcelCollectionViewLayout.modulemap; sourceTree = "<group>"; };
 		0D2B71F5DA7A93EAF2CA8082632CD9C2 /* Pods-ExcelCollectionViewLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ExcelCollectionViewLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		16E4991F8B97E4F4C7C0F68E52460724 /* ExcelCollectionViewLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ExcelCollectionViewLayout-umbrella.h"; sourceTree = "<group>"; };
-		24B91379B65BEC85DEC9EB3AB32B2189 /* Pods-ExcelCollectionViewLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ExcelCollectionViewLayout_Tests.modulemap"; sourceTree = "<group>"; };
+		24B91379B65BEC85DEC9EB3AB32B2189 /* Pods-ExcelCollectionViewLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ExcelCollectionViewLayout_Tests.modulemap"; sourceTree = "<group>"; };
 		24C25BA03538CC52BA9903424B6119DC /* ExcelCollectionViewLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ExcelCollectionViewLayout-dummy.m"; sourceTree = "<group>"; };
 		2E57CF787C1A1D14AC9252B7A864F5A7 /* Pods-ExcelCollectionViewLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExcelCollectionViewLayout_Example-umbrella.h"; sourceTree = "<group>"; };
 		407FFBA19AD22AED47D2A177F510954F /* Pods-ExcelCollectionViewLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ExcelCollectionViewLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -45,15 +45,15 @@
 		537A5E1BBF609645405F39CBF7564B9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		611B3A24ABD6607138A89B0329959349 /* Pods-ExcelCollectionViewLayout_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExcelCollectionViewLayout_Tests-resources.sh"; sourceTree = "<group>"; };
 		6AB0B4ABCBAE6F73CF1768DC0D82DA43 /* ExcelCollectionViewLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExcelCollectionViewLayout.swift; path = ExcelCollectionViewLayout/Classes/ExcelCollectionViewLayout.swift; sourceTree = "<group>"; };
-		6D77E18BB17E355EF5E1E52F6FBF63A1 /* ExcelCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ExcelCollectionViewLayout.framework; path = ExcelCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D77E18BB17E355EF5E1E52F6FBF63A1 /* ExcelCollectionViewLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExcelCollectionViewLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CBDAF8187316962E9F5421A670FA578 /* Pods-ExcelCollectionViewLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExcelCollectionViewLayout_Tests-dummy.m"; sourceTree = "<group>"; };
-		7DA1F91D5F3CE45CE6F27631574AE508 /* Pods-ExcelCollectionViewLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ExcelCollectionViewLayout_Example.modulemap"; sourceTree = "<group>"; };
+		7DA1F91D5F3CE45CE6F27631574AE508 /* Pods-ExcelCollectionViewLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ExcelCollectionViewLayout_Example.modulemap"; sourceTree = "<group>"; };
 		889DACE8371C012A6EDAE0623A1F9170 /* Pods-ExcelCollectionViewLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ExcelCollectionViewLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BB781D57ECADE3C243DAFC4B3B82BEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A03777191B3790745DA38186BE683785 /* Pods_ExcelCollectionViewLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExcelCollectionViewLayout_Example.framework; path = "Pods-ExcelCollectionViewLayout_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A03777191B3790745DA38186BE683785 /* Pods_ExcelCollectionViewLayout_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExcelCollectionViewLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE36595560AAC9710FB7F56B92487CCB /* Pods-ExcelCollectionViewLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ExcelCollectionViewLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AF021C38153920E3DFF9F9553C6597B7 /* Pods_ExcelCollectionViewLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ExcelCollectionViewLayout_Tests.framework; path = "Pods-ExcelCollectionViewLayout_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF021C38153920E3DFF9F9553C6597B7 /* Pods_ExcelCollectionViewLayout_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExcelCollectionViewLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF383458AB87CA26C4CEE4382FCF4BA5 /* Pods-ExcelCollectionViewLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ExcelCollectionViewLayout_Example-dummy.m"; sourceTree = "<group>"; };
 		B2BABCD802F51D37FD1EEF1DF295B7B6 /* Pods-ExcelCollectionViewLayout_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExcelCollectionViewLayout_Example-resources.sh"; sourceTree = "<group>"; };
 		B4AE935CA51D1629F484A63174D840B8 /* Pods-ExcelCollectionViewLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ExcelCollectionViewLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -299,7 +299,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					A88843AC99014CF864F8DD062AA103D7 = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -447,7 +452,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -502,6 +508,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -509,6 +516,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -539,6 +547,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -557,6 +566,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -564,6 +574,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -627,7 +638,8 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
